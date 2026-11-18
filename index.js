@@ -22,7 +22,7 @@ const client = new Client({
     ]
 });
 
-const VOICE_CHANNEL_ID = '1570325536427868192';
+const VOICE_CHANNEL_ID = '1570321197076324422';
 
 client.once('ready', async () => {
     console.log(`تم تسجيل الدخول بنجاح باسم ${client.user.tag}`);
